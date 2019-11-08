@@ -234,8 +234,6 @@ db = Debug('handler')
 class Handler:
     def __init__(self, receiver, user, rep):
         self.catching = [['иди нахуй', 'нахуй иди', 'пошёл нахуй', 'нахуй пошёл'], ['прости', 'извини', 'sorry', 'сорян', 'сорри', 'извините'], ['соси', 'сосать', 'сасать', 'сосатб', 'сасатб', 'саси'], ['гей', 'геи']]
-        self.commands = ['погода', 'вики', 'бой', 'имя', 'рулетка', 'шар', 'фраза', 'профиль', 'топ', 'рп', 'стих']
-        self.devcommands = ['имя', 'отбой']
         self.receiver = receiver
         self.user = user
         self.sex = self.user['sex']
